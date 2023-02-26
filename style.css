@@ -233,22 +233,14 @@ h3 {
     position: absolute;
     background: var(--theme-color);
     top: 50%;
-    left: 205px;
+    left: 200px;
     transform: translate(0%,-50%);
     z-index: -1;
-    transition:all 1s ease-in-out;
+    transition: width 0.5s ease-out,opacity 0.5s ease-out;
 }
 #Skills .flex .wrap .box:hover >.overlay{
-    height: 103%;
-    width: 100%;
+    width: calc(100% - 200px);
     opacity:1;
-    position: absolute;
-    background: var(--theme-color);
-    top: 50%;
-    left: 205px;
-    transform: translate(0%,-50%);
-    z-index: -1;
-    transition:all 1s ease-in-out;
 }
 
 #Skills .flex .wrap>.box:nth-child(1) img {
