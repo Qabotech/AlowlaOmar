@@ -239,9 +239,16 @@ h3 {
     transition:all 1s ease-in-out;
 }
 #Skills .flex .wrap>.box:hover overlay{
+    height: 103%;
     width: 100%;
     opacity:1;
-    transition:all  1s ease-in-out;
+    position: absolute;
+    background: var(--theme-color);
+    top: 50%;
+    left: 205px;
+    transform: translate(-50%,-0%);
+    z-index: -1;
+    transition:all 1s ease-in-out;
 }
 
 #Skills .flex .wrap>.box:nth-child(1) img {
