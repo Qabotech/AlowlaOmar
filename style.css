@@ -211,8 +211,7 @@ h3 {
 }
 
 #Skills .flex .wrap>.box .text {
-    height: 100%;
-    position:relative;
+    height: 200px;
 }
 #Skills .flex .wrap>.box {
     width: 100%;
@@ -224,7 +223,7 @@ h3 {
 }
 
 #Skills .flex .wrap .box> .overlay{
-    height: 100%;
+    height: 200px;
     width: 0%;
     opacity:0;
     position: absolute;
