@@ -234,7 +234,7 @@ h3 {
     background: var(--theme-color);
     top: 50%;
     left: 205px;
-    transform: translate(-50%,-0%);
+    transform: translate(0%,-50%);
     z-index: -1;
     transition:all 1s ease-in-out;
 }
@@ -246,7 +246,7 @@ h3 {
     background: var(--theme-color);
     top: 50%;
     left: 205px;
-    transform: translate(-50%,-0%);
+    transform: translate(0%,-50%);
     z-index: -1;
     transition:all 1s ease-in-out;
 }
