@@ -236,12 +236,12 @@ h3 {
     left: 205px;
     transform: translate(-50%,-0%);
     z-index: -1;
-    transtion:all ease-in-out 1s;
+    transtion:all 1s ease-in-out;
 }
 #Skills .flex .wrap>.box:hover overlay{
     width: 100%;
     opacity:1;
-    transtion:all ease-in-out 1s;
+    transtion:all  1s ease-in-out;
 }
 
 #Skills .flex .wrap>.box:nth-child(1) img {
