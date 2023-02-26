@@ -226,7 +226,7 @@ h3 {
     padding-right:5px;
 }
 
-#Skills .flex .wrap>.box .overlay{
+#Skills .flex .wrap .box> .overlay{
     height: 103%;
     width: 0%;
     opacity:0;
@@ -238,7 +238,7 @@ h3 {
     z-index: -1;
     transition:all 1s ease-in-out;
 }
-#Skills .flex .wrap>.box:hover overlay{
+#Skills .flex .wrap .box:hover >.overlay{
     height: 103%;
     width: 100%;
     opacity:1;
