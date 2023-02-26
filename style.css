@@ -222,7 +222,7 @@ h3 {
     position:relative;
 }
 
-#Skills .flex .wrap>.box .text::before {
+#Skills .flex .wrap>.box .overlay{
     height: 100%;
     width:100%;
     position:absolute;
