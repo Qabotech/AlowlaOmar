@@ -195,6 +195,8 @@ h3 {
     display: flex;
     align-items: center;
     gap: 1em;
+    overflow:hidden;
+    
 }
 
 #Skills .flex .wrap>.box .img {
@@ -223,13 +225,14 @@ h3 {
 }
 
 #Skills .flex .wrap>.box .overlay{
-    height: 100%;
-    width:100%;
-    position:absolute;
-    background:var(--theme-color-);
-    top:50%;
-    left:50%;
-    transform:translate(-50%,-50%);
+    height: 103%;
+    width: 100%;
+    position: absolute;
+    background: var(--theme-color);
+    top: 50%;
+    left: 200px;
+    transform: translate(-50%,-0%);
+    z-index: -1;
 }
 
 #Skills .flex .wrap>.box:nth-child(1) img {
