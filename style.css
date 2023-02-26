@@ -223,7 +223,7 @@ h3 {
 }
 
 #Skills .flex .wrap .box> .overlay{
-    height: 200px;
+    height: 202px;
     width: 0%;
     opacity:0;
     position: absolute;
@@ -235,7 +235,7 @@ h3 {
     transition: width 0.5s ease-out,opacity 0.5s ease-out;
 }
 #Skills .flex .wrap .box:hover >.overlay{
-    width: calc(100% - 200px);
+    width: calc(100% - 180px);
     opacity:1;
 }
 
