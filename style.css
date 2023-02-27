@@ -201,6 +201,13 @@ h3 {
     justify-content: center;
     align-items: center;
     border: 1px solid var(--theme-color);
+
+}
+#Skills .flex .wrap .box .img > * {
+    transition: transform 0.5s ease-out;
+}
+#Skills .flex .wrap .box:hover .img > * {
+transform: scale(1.1);
 }
 
 #Skills .flex .wrap>.box * {
