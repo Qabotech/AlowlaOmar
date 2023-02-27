@@ -230,7 +230,9 @@ transform: scale(1.1);
     gap: 1em;
     position:relative;
 }
-
+#chevorn{
+display: none;
+}
 #Skills .flex .wrap .box> .overlay{
     height: 202px;
     width: 0%;
@@ -370,6 +372,21 @@ transform: scale(1.1);
 }
 
 @media only screen and (max-width: 1200px) {
+
+    #chevorn{
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%,0%);
+        padding: 0.3em 1em;
+        background: var(--theme-color);
+        z-index: 99;
+        border: solid 1px var(--font-color-);
+        border-top: 0;
+        display: none;
+    }
+    
     #Skills .flex .wrap .box:hover >.overlay{
         width: 0%;
         opacity:0;
@@ -379,6 +396,7 @@ transform: scale(1.1);
 
     .main-content {
         padding: 0 2em;
+        position: relative;
     }
 
     body {
@@ -417,14 +435,36 @@ transform: scale(1.1);
     }
 
     header {
+        position: fixed;
+        z-index: 99;
+        width: 100vw;
+        height: 90vh;
+        background: var(--theme-color);
+        top: 0;
         display: none;
     }
-
-
+    nav>ul li:last-child{
+        margin: 0;
+    }
+    nav{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }    
+    nav>ul{
+    display: flex;
+    height: 100%;
+    gap: 2em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
     #haupt>.wrap-img {
         display: none;
     }
-
+    
     #haupt>.img .wrap-img {
         display: flex;
         visibility: unset;
