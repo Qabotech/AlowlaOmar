@@ -57,7 +57,7 @@ nav>ul {
 }
 
 nav * {
-    font-size: 30px;
+    font-size: 25px;
     font-family: var(--Nunito-font);
 }
 
@@ -115,7 +115,7 @@ textarea {
 }
 
 h1 {
-    font-size: 90px;
+    font-size: 75px;
     font-weight: 200;
     text-transform: uppercase;
 }
@@ -127,7 +127,7 @@ h3 {
 }
 
 #haupt>.text h1 {
-    width: 760px;
+    width: 530px;
 }
 
 #haupt>.text h1 t {
@@ -135,7 +135,7 @@ h3 {
 }
 
 #haupt>.text button {
-    width: 625px;
+    width: 528px;
     height: 50px;
     border-radius: 3em;
     font-size: 30px;
@@ -143,8 +143,8 @@ h3 {
 }
 
 #haupt>.wrap-img {
-    width: 33vw;
-    height: 33vw;
+    width: 30vw;
+    height: 30vw;
     background: var(--theme-color);
     position: absolute;
     right: 0;
@@ -249,6 +249,10 @@ h3 {
     text-align: justify;
     font-weight: bold;
     color: var(--paragraph-color-);
+    transition: color 0.5s ease-out ;
+}
+#Skills .flex .wrap>.box:hover p {
+    color:#f1f1f1;
 }
 
 #E-mail {
@@ -266,6 +270,7 @@ h3 {
     flex-direction: column;
     gap: 1em;
 }
+
 
 ::placeholder {
     font-size: 30px;
@@ -356,9 +361,15 @@ h3 {
 }
 
 @media only screen and (max-width: 1200px) {
+    #Skills .flex .wrap .box:hover >.overlay{
+        width: 0%;
+        opacity:0;
+    }#Skills .flex .wrap>.box:hover p {
+        color:var(--paragraph-color-);
+    }
 
     .main-content {
-        padding: 0 2em;
+        padding: 2em 2em;
     }
 
     body {
