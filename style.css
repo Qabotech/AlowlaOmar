@@ -302,7 +302,7 @@ transform: scale(1.1);
     font-size: 30px;
 }
 
-#E-mail>form input[type="submit"] {
+#E-mail>form button {
     width: 20vw;
     height: 4em;
     background: var(--theme-color);
@@ -354,7 +354,7 @@ transform: scale(1.1);
         width: 80%;
     }
 
-    #E-mail>form input[type="submit"] {
+    #E-mail>form button {
         width: 88%;
     }
 
@@ -553,7 +553,7 @@ transform: scale(1.1);
 
     }
 
-    #E-mail>form input[type="submit"] {
+    #E-mail>form button {
         width: 120%;
         font-size: 22px;
     }
