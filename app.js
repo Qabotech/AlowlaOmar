@@ -130,7 +130,6 @@ $( window ).resize(function() {
       viewport.classList.add("dragging");
       positionDiff = (e.pageX || e.touches[0].pageX) - prevPageX;
       viewport.scrollLeft = prevScrollLeft - positionDiff;
-      showHideIcons();
   }
   const dragStop = () => {
       isStartDrag = false;
