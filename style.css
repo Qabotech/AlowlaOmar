@@ -849,7 +849,7 @@ glow RL
     margin: 0 1em;
 }
 
-.viewport .blur {
+.blur {
     filter: blur(2px);
     transition: filter 0.5s ease-out;
 }
