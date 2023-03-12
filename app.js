@@ -1,4 +1,5 @@
 $(".flex .box").append("<div class='overlay'></div>");
+$("a").attr("target", "_blank");
 function buttonSize() {
     var width = $("#name").innerWidth();
 var height = $("#name").innerHeight();
