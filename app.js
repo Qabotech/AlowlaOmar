@@ -26,7 +26,6 @@ $( window ).resize(function() {
       icon.addEventListener("click", () => {
           let firstboxWidth = firstbox.clientWidth + 14;
           viewport.scrollLeft += icon.id == "left" ? -firstboxWidth : firstboxWidth;
-          setTimeout(() => showHideIcons(), 60); 
       });
   });
   
