@@ -837,6 +837,8 @@ glow RL
 .viewport .box>.text p {
     padding: 0 1em;
     text-align: left;
+    width: 80%;
+    white-space: normal;
 }
 
 .viewport .box>.text a {
