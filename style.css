@@ -715,9 +715,10 @@ body {
     scroll-behavior: smooth;
     display: flex;
     position: relative;
-    align-items: center;
+    /* align-items: center; */
     min-height: 50vh;
     height: auto;
+    padding: 10vh 0;
 }
 
 .viewport.dragging {
@@ -733,7 +734,7 @@ body {
 
     transition: transform 0.3s ease-in-out;
     backface-visibility: hidden;
-    height: 500px;
+    height: 600px;
     user-select: none;
     margin-left: 14px;
     min-width: calc(calc(90vw / 3) - 14px);
