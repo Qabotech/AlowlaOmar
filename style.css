@@ -770,7 +770,7 @@ h3 {
     pointer-events: none;
 }
 
-
+/*update*/
 @media screen and (max-width: 900px) {
     .viewport .box {
         min-width: calc(90vw / 2);
