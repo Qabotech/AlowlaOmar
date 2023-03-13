@@ -777,6 +777,7 @@ h3 {
 @media screen and (max-width: 900px) {
     .viewport .box {
         min-width: calc(90vw / 2);
+        display:none;
     }
 
     .viewport .centered {
@@ -784,22 +785,20 @@ h3 {
         opacity: 1 !important;
         left: calc(50% + 14px);
         min-width: 60vw;
+        display:flex !important;
     }
 
     .viewport .prev {
         opacity: 0 !important;
+        display:none;
     }
 
     .viewport .next {
         opacity: 0 !important;
+        display:none;
     }
 }
 
-@media screen and (max-width: 550px) {
-    .viewport .box {
-        min-width: 90vw;
-    }
-}
 
 .viewport .box>img {
     width: 100%;
