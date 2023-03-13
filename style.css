@@ -820,9 +820,10 @@ h3 {
 }
 
 .viewport .box>.text p {
+    font-size: 0.9em;
     padding: 0 1em;
     text-align: left;
-    width: 100%;
+    width: 95%;
     white-space: normal;
     min-height: 90px;
 }
