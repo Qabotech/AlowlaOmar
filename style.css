@@ -777,26 +777,8 @@ h3 {
 @media screen and (max-width: 900px) {
     .viewport .box {
         min-width: calc(90vw / 2);
-        display:none;
     }
 
-    .viewport .centered {
-        transform: scale(1) translate(-50%, 0);
-        opacity: 1 !important;
-        left: calc(50% + 14px);
-        min-width: 60vw;
-        display:flex !important;
-    }
-
-    .viewport .prev {
-        opacity: 0 !important;
-        display:none !important;
-    }
-
-    .viewport .next {
-        opacity: 0 !important;
-        display:none !important;
-    }
 }
 
 
