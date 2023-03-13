@@ -664,7 +664,7 @@ h3 {
 }
 
 .wrapper i {
-    top: 50%;
+    top: 45%;
     height: 44px;
     width: 44px;
     color: #343F4F;
@@ -689,11 +689,11 @@ h3 {
 }
 
 .wrapper .fa-angle-left {
-    left: -8%;
+    left: -5%;
 }
 
 .wrapper i:last-child {
-    left: 105%;
+    left: 103%;
 }
 
 .wrapper .viewport {
@@ -707,6 +707,7 @@ h3 {
     height: auto;
     width: 90vw;
     align-items: center;
+    margin-bottom: 15vh;
 }
 
 .viewport.dragging {
