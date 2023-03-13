@@ -660,9 +660,7 @@ h3 {
     max-width: 92vw;
     position: relative;
     min-height: 100vh;
-    justify-content: center;
-    align-items: center;
-    
+    margin-left: 1%;
 }
 
 .wrapper i {
@@ -691,11 +689,11 @@ h3 {
 }
 
 .wrapper .fa-angle-left {
-    left: -10%;
+    left: -4%;
 }
 
 .wrapper i:last-child {
-    left: 108%;
+    left: 100%;
 }
 
 .wrapper .viewport {
@@ -708,10 +706,9 @@ h3 {
     min-height: 50vh;
     height: auto;
     padding: 10vh 0;
-    min-width:90vw;
 }
 
-.viewport .dragging {
+.viewport.dragging {
     cursor: grab;
     scroll-behavior: auto;
 }
@@ -727,7 +724,7 @@ h3 {
     height: 600px;
     user-select: none;
     margin-left: 14px;
-    min-width: calc(calc(100% / 3) - 14px);
+    min-width: calc(calc(90vw / 3) - 14px);
     max-width: calc(1200px / 3);
     position: relative;
     opacity: 0;
@@ -773,14 +770,32 @@ h3 {
     pointer-events: none;
 }
 
-
+/*update*/
 @media screen and (max-width: 900px) {
     .viewport .box {
         min-width: calc(90vw / 2);
     }
 
+    .viewport .centered {
+        transform: scale(1.1) translate(-50%, 0);
+        opacity: 1 !important;
+        left: 50%;
+    }
+
+    .viewport .prev {
+        opacity: 0 !important;
+    }
+
+    .viewport .next {
+        opacity: 0 !important;
+    }
 }
 
+@media screen and (max-width: 550px) {
+    .viewport .box {
+        min-width: 90vw;
+    }
+}
 
 .viewport .box>img {
     width: 100%;
