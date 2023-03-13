@@ -689,11 +689,11 @@ h3 {
 }
 
 .wrapper .fa-angle-left {
-    left: -4%;
+    left: -8%;
 }
 
 .wrapper i:last-child {
-    left: 100%;
+    left: 105%;
 }
 
 .wrapper .viewport {
@@ -705,7 +705,7 @@ h3 {
     position: relative;
     min-height: 50vh;
     height: auto;
-    padding: 10vh 0;
+    width: 90vw;
 }
 
 .viewport.dragging {
@@ -724,7 +724,7 @@ h3 {
     height: 600px;
     user-select: none;
     margin-left: 14px;
-    min-width: calc(calc(90vw / 3) - 14px);
+    min-width: calc(calc(100% / 3) - 14px);
     max-width: calc(1200px / 3);
     position: relative;
     opacity: 0;
