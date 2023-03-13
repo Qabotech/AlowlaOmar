@@ -660,8 +660,9 @@ h3 {
     max-width: 92vw;
     position: relative;
     min-height: 100vh;
-    margin-left: 1%;
-    justify-content:center;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .wrapper i {
@@ -694,7 +695,7 @@ h3 {
 }
 
 .wrapper i:last-child {
-    left: 107%;
+    left: 108%;
 }
 
 .wrapper .viewport {
