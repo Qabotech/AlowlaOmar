@@ -706,6 +706,7 @@ h3 {
     min-height: 50vh;
     height: auto;
     padding: 10vh 0;
+    min-width:90vw;
 }
 
 .viewport.dragging {
@@ -724,7 +725,7 @@ h3 {
     height: 600px;
     user-select: none;
     margin-left: 14px;
-    min-width: calc(calc(90vw / 3) - 14px);
+    min-width: calc(calc(100% / 3) - 14px);
     max-width: calc(1200px / 3);
     position: relative;
     opacity: 0;
