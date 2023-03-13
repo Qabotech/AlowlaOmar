@@ -661,6 +661,7 @@ h3 {
     position: relative;
     min-height: 100vh;
     margin-left: 1%;
+    justify-content:center;
 }
 
 .wrapper i {
