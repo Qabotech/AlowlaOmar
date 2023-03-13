@@ -706,6 +706,7 @@ h3 {
     min-height: 50vh;
     height: auto;
     width: 90vw;
+    align-items: center;
 }
 
 .viewport.dragging {
