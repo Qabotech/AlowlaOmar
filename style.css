@@ -186,13 +186,13 @@ h3 {
     gap: 1em;
 }
 
-#Skills .flex .wrap>.box {
+#Skills .flex .wrap>.card {
     width: 100%;
     height: 45%;
 }
 
 
-#Skills .flex .wrap>.box .img {
+#Skills .flex .wrap>.card .img {
     width: 200px;
     height: 200px;
     min-width: 200px;
@@ -204,28 +204,28 @@ h3 {
 
 }
 
-#Skills .flex .wrap .box .img>* {
+#Skills .flex .wrap .card .img>* {
     transition: transform 0.5s ease-out;
 }
 
-#Skills .flex .wrap .box:hover .img>* {
+#Skills .flex .wrap .card:hover .img>* {
     transform: scale(1.1);
 }
 
-#Skills .flex .wrap>.box * {
+#Skills .flex .wrap>.card * {
     font-family: var(--Nunito-font);
 }
 
-#Skills .flex .wrap>.box img {
+#Skills .flex .wrap>.card img {
     width: 50%;
     height: 50%;
 }
 
-#Skills .flex .wrap>.box .text {
+#Skills .flex .wrap>.card .text {
     height: 200px;
 }
 
-#Skills .flex .wrap>.box {
+#Skills .flex .wrap>.card {
     width: 100%;
     height: 45%;
     display: flex;
@@ -238,7 +238,7 @@ h3 {
     display: none;
 }
 
-#Skills .flex .wrap .box>.overlay {
+#Skills .flex .wrap .card>.overlay {
     height: 202px;
     width: 0%;
     opacity: 0;
@@ -251,17 +251,17 @@ h3 {
     transition: width 0.5s ease-out, opacity 0.5s ease-out;
 }
 
-#Skills .flex .wrap .box:hover>.overlay {
+#Skills .flex .wrap .card:hover>.overlay {
     width: calc(100% - 180px);
     opacity: 1;
 }
 
-#Skills .flex .wrap>.box:nth-child(1) img {
+#Skills .flex .wrap>.card:nth-child(1) img {
     width: 80%;
     height: 80%;
 }
 
-#Skills .flex .wrap>.box p {
+#Skills .flex .wrap>.card p {
     font-size: 23px;
     text-align: justify;
     font-weight: bold;
@@ -269,7 +269,7 @@ h3 {
     transition: color 0.5s ease-out;
 }
 
-#Skills .flex .wrap>.box:hover p {
+#Skills .flex .wrap>.card:hover p {
     color: #f1f1f1;
 }
 
@@ -346,11 +346,11 @@ h3 {
         padding: 0 6em;
     }
 
-    #Skills .flex .wrap>.box h3 {
+    #Skills .flex .wrap>.card h3 {
         font-size: 30px;
     }
 
-    #Skills .flex .wrap>.box p {
+    #Skills .flex .wrap>.card p {
         font-size: 20px;
     }
 
@@ -394,12 +394,12 @@ h3 {
         display: none;
     }
 
-    #Skills .flex .wrap .box:hover>.overlay {
+    #Skills .flex .wrap .card:hover>.overlay {
         width: 0%;
         opacity: 0;
     }
 
-    #Skills .flex .wrap>.box:hover p {
+    #Skills .flex .wrap>.card:hover p {
         color: var(--paragraph-color-);
     }
 
@@ -547,13 +547,13 @@ h3 {
 
 @media only screen and (max-width: 600px) {
 
-    #Skills>.flex .wrap .box {
+    #Skills>.flex .wrap .card {
         gap: 4em;
         flex-direction: column;
 
     }
 
-    #Skills>.flex .wrap .box * {
+    #Skills>.flex .wrap .card * {
         text-align: center !important;
 
     }
@@ -713,7 +713,7 @@ h3 {
     scroll-behavior: auto;
 }
 
-.viewport.dragging .box {
+.viewport .dragging .box {
     pointer-events: none;
 }
 
@@ -774,6 +774,20 @@ h3 {
 @media screen and (max-width: 900px) {
     .viewport .box {
         min-width: calc(90vw / 2);
+    }
+
+    .viewport .centered {
+        transform: scale(1.1) translate(-50%, 0);
+        opacity: 1 !important;
+        left: 50%;
+    }
+
+    .viewport .prev {
+        opacity: 0 !important;
+    }
+
+    .viewport .next {
+        opacity: 0 !important;
     }
 }
 

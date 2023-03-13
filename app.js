@@ -70,7 +70,6 @@ $( window ).resize(function() {
       const center = x + width / 2;
       let closest = null;
       let minDistance = Infinity;
-    console.log(closest);
       boxes.forEach((box) => {
         const boxRect = box.getBoundingClientRect();
         const distance = Math.abs(center - (boxRect.x + boxRect.width / 2));
@@ -86,7 +85,6 @@ $( window ).resize(function() {
   
     function highlightCenteredBox() {
       const centeredBox = getCenteredBox();
-      
       boxes.forEach((box) => {
   
           if (box === centeredBox) 
