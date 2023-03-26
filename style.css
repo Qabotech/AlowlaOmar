@@ -700,7 +700,7 @@ h3 {
 }
 
 .wrapper i:last-child {
-    left: 100%;
+    left: 103%;
 }
 
 .wrapper .viewport {
@@ -878,5 +878,9 @@ h3 {
 
     .wrapper .fa-angle-left {
         margin-left: -5%;
+    }
+
+    .wrapper i:last-child {
+        left: 99%;
     }
 }
