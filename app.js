@@ -139,6 +139,7 @@ const dragStop = () => {
 }  
 
 
+
 viewport.addEventListener("mousedown", StartDrag);
 viewport.addEventListener("touchstart", StartDrag);
 
@@ -149,8 +150,5 @@ document.addEventListener("mouseup", dragStop);
 viewport.addEventListener("touchend", dragStop);
 
 $(".fa-angle-right").trigger("click");
- 
-
-$(window).on('resize', function(){
-    $(".fa-angle-right").trigger("click");
-});
+  
+  

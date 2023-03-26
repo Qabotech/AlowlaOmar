@@ -869,7 +869,7 @@ h3 {
 
 @media screen and (max-width: 500px) {
     .viewport .box {
-        min-width: 80%;
+        min-width: 78%;
     }
 
     .viewport .centered {
