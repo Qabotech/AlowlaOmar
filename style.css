@@ -74,6 +74,7 @@ nav>ul li button {
 
 button {
     background: var(--theme-color);
+    cursor: pointer;
 }
 
 section {
@@ -124,6 +125,10 @@ h3 {
     font-size: 40px;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+#Skills h3 {
+    margin-top: -10px;
 }
 
 #haupt>.text h1 {
