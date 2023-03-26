@@ -1,0 +1,2 @@
+ <!-- sql
+        CREATE TABLE `epiz_33791394_proto`.`anfrage` ( `ID` INT NOT NULL AUTO_INCREMENT , `name` VARCHAR(255) NOT NULL , `email` VARCHAR(255) NOT NULL , `msg` TEXT NOT NULL , PRIMARY KEY (`ID`)) ENGINE = MyISAM; -->
