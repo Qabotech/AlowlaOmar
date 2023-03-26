@@ -262,15 +262,15 @@
                 </div>
             </div>
         </section>
-        <!-- sql
-        CREATE TABLE `epiz_33791394_proto`.`anfrage` ( `ID` INT NOT NULL AUTO_INCREMENT , `name` VARCHAR(255) NOT NULL , `email` VARCHAR(255) NOT NULL , `msg` TEXT NOT NULL , PRIMARY KEY (`ID`)) ENGINE = MyISAM; -->
+
         <section id="E-mail">
             <h1>Anfrage</h1>
             <form action="https://turbodesigners.ml/upload.php" method="get">
                 <input type="text" id="name" name="uname" placeholder="Name">
                 <input type="email" id="Email" name="email" placeholder="E-mail">
                 <textarea id="msg" name="msg" placeholder="Hier tippen"></textarea>
-                <input type="submit" name="send" value="Nachricht Senden" style="background: var(--theme-color);">
+                <input type="submit" name="send" id="send" value="Nachricht Senden"
+                    style="background: var(--theme-color);">
             </form>
         </section>
     </div>

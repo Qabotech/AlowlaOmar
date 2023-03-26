@@ -1,7 +1,7 @@
-$(".flex .box").append("<div class='overlay'></div>");
+$(".flex .text").append("<div class='overlay'></div>");
 $(".viewport a").attr("target", "_blank");
 function buttonSize() {
-    var width = $("#name").innerWidth();
+var width = $("#name").innerWidth();
 var height = $("#name").innerHeight();
 $('#send').innerWidth(width)
 $('#send').innerHeight(height)
@@ -149,5 +149,8 @@ document.addEventListener("mouseup", dragStop);
 viewport.addEventListener("touchend", dragStop);
 
 $(".fa-angle-right").trigger("click");
-  
-  
+ 
+
+$(window).on('resize', function(){
+    $(".fa-angle-right").trigger("click");
+});
