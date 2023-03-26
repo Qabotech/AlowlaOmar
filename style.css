@@ -401,7 +401,7 @@ h3 {
         display: none;
     }
 
-    #Skills .flex .wrap .card:hover>.overlay {
+    #Skills .flex .wrap .card:hover .overlay {
         width: 0%;
         opacity: 0;
     }
@@ -862,6 +862,9 @@ h3 {
         margin: 0 10%;
     }
 
+    .wrapper i {
+        scale: 0.5;
+    }
 }
 
 @media screen and (max-width: 500px) {
