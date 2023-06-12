@@ -855,7 +855,7 @@ h3 {
 
 @media screen and (max-width: 700px) {
     .viewport {
-        height:100vh;
+        height:100vh !important;
     }
     .viewport .box {
         min-width: 70%;
