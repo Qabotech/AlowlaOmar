@@ -1,3 +1,7 @@
+    $(window).on("load", function () {
+        $(".loading").remove();
+    });
+
 $(".flex .text").append("<div class='overlay'></div>");
 $(".viewport a").attr("target", "_blank");
 function buttonSize() {
