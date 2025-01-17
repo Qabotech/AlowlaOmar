@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Alowla Omar</title>
+    <style>
+        <?php include 'css/style.css'; ?>
+        <?php include 'css/slider.css'; ?>
+    </style>
+</head>
+
+<body>
+    <div class="loading">
+        <div class="lds-ellipsis">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <div class="main-content">
+        <section id="haupt">
+            <header>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#haupt">Main</a>
+                        </li>
+                        <li>
+                            <a href="#Skills">Skills</a>
+                        </li>
+                        <li>
+                            <a href="#Portfolio">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#E-mail">E-mail</a>
+                        </li>
+                        <li>
+                            <a href="mailto:Alowlaomar0@gmail.com">
+                                <button>E-mail</button>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="text">
+                <h1>
+                    Hallo, Ich bin <br> Alowla Omar <br>
+                    <t>Full Stack Web </t><br> Entwickler
+                </h1>
+                <a href="#Portfolio">
+                    <button>
+                            Zum Portfolio
+                        </button>
+                </a>
+            </div>
+            <div class="img">
+                <div class="wrap-img">
+                    <img src="imgs/OMnobg.png" alt="men img">
+                </div>
+            </div>
+            <div class="wrap-img">
+                <img src="imgs/OMnobg.png" alt="men img">
+            </div>
+        </section>
+        <section id="Skills">
+            <h1>Skills</h1>
+            <div class="flex">
+                <div class="wrap">
+                    <div class="card">
+                        <div class="img">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="117" height="129" viewBox="0 0 117 129">
+                                    <text id="_html_css_fun_js_"
+                                        data-name="&lt;html/&gt;
+                              {css}
+                              fun(js)" transform="translate(1 32)"
+                                        fill="#f23545" font-size="30"
+                                        font-family="Nunito-Bold, Nunito"
+                                        font-weight="700">
+                                        <tspan fill="#fff" x="0"
+                                            y="0">&lt;html/&gt;</tspan>
+                                        <tspan x="0" y="43">{css}</tspan>
+                                        <tspan fill="#fff" x="0"
+                                            y="86">fun(js)</tspan>
+                                    </text>
+                                </svg>
+                        </div>
+                        <div class="text">
+                            <h3>Web</h3>
+                            <p>Ich habe verschiedene Fähigkeiten im Bereich Webentwicklung, darunter: HTML, CSS (Bootstrap, Tailwind), JavaScript (jQuery, Vue), sowie PHP (Laravel, Laravel Nova).</p>
+
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="80.164" height="108.716" viewBox="0 0 80.164 108.716">
+                                    <g id="java-icon"
+                                        transform="translate(-3.994 -0.001)">
+                                        <path id="Path_1" data-name="Path 1"
+                                            d="M29.909,42.54s-4.179,2.541,2.9,3.268c8.527,1.087,13.07.907,22.508-.907a34.041,34.041,0,0,0,5.99,2.9C40.077,56.884,13.2,47.262,29.905,42.54Zm-2.718-11.8s-4.539,3.448,2.541,4.179A85.977,85.977,0,0,0,58.78,33.469a11.076,11.076,0,0,0,4.355,2.721c-25.6,7.624-54.277.727-35.945-5.446Zm50.1,20.69s3.085,2.541-3.448,4.539c-12.163,3.635-51.009,4.722-61.9,0-3.812-1.631,3.448-3.992,5.776-4.355a18.153,18.153,0,0,1,3.635-.544C17.175,48.166-6.42,57.06,9.375,59.6c43.385,7.08,79.146-3.085,67.89-8.167ZM31.873,18.395s-19.786,4.722-7.08,6.353c5.446.727,16.155.544,26.14-.18,8.167-.727,16.342-2.174,16.342-2.174a43.748,43.748,0,0,0-4.9,2.541c-20.147,5.266-58.816,2.9-47.74-2.541A37.627,37.627,0,0,1,31.876,18.4Zm35.4,19.786c20.33-10.532,10.892-20.69,4.355-19.423a11.475,11.475,0,0,0-2.361.727,3.112,3.112,0,0,1,1.814-1.451C83.972,13.5,94.137,31.648,66.9,38.725a2.271,2.271,0,0,0,.364-.544Zm-33.4,28.681c19.6,1.271,49.558-.727,50.282-9.988,0,0-1.451,3.635-16.155,6.353-16.7,3.085-37.4,2.718-49.558.727,0,0,2.541,2.174,15.431,2.9Z"
+                                            transform="translate(0 41.509)"
+                                            fill="#f23545" />
+                                        <path id="Path_2" data-name="Path 2"
+                                            d="M36.675,0S47.931,11.437,25.967,28.682c-17.609,13.977-3.992,21.964,0,31.042C15.618,50.466,8.178,42.3,13.26,34.675,20.7,23.416,41.214,18,36.675,0ZM30.9,52.1c5.266,5.99-1.451,11.436-1.451,11.436s13.433-6.9,7.26-15.431c-5.626-8.167-9.988-12.163,13.613-25.776,0,0-37.212,9.258-19.423,29.771Z"
+                                            transform="translate(18.286 0)"
+                                            fill="#fff" />
+                                    </g>
+                                </svg>
+                        </div>
+                        <div class="text">
+                            <h3>Java</h3>
+                            <p>Während meiner Ausbildung habe ich Java und objektorientierte Programmierung (OOP) gelernt sowie den Umgang mit Spring Boot.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="wrap">
+                    <div class="card">
+                        <div class="img">
+                            <img src="imgs/c++.png" alt>
+                        </div>
+                        <div class="text">
+                            <h3>C/C++</h3>
+                            <p>Während meiner Ausbildung erlernte ich C und arbeitete an kleineren Aufgaben. Zusätzlich bildete ich mich eigenständig in C++ weiter.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img">
+                            <img src="imgs/py.png" alt="python">
+                        </div>
+                        <div class="text">
+                            <h3>Python</h3>
+                            <p>Ich fühle mich sicher in der Umsetzung von Python-Projekten und lerne ständig neue Bibliotheken kennen, die meine Python-Entwicklung weiter verbessern.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Portfolio">
+            <h1>Portfolio</h1>
+            <div class="container" style="flex-direction:row-reverse;">
+
+                <div class="cards">
+                    <!-- Start of Cards -->
+
+                </div>
+        </section>
+
+        <section id="E-mail">
+            <h1>Anfrage</h1>
+            <form action="send.php" method="post">
+                <input type="text" id="name" name="uname" placeholder="Name">
+                <input type="email" id="Email" name="email" placeholder="E-mail">
+                <textarea id="msg" name="msg" placeholder="Hier tippen"></textarea>
+                <input type="submit" name="send" id="send" value="Nachricht Senden" style="background: var(--theme-color);">
+            </form>
+        </section>
+        </div>
+        <script>
+            <?php include 'app.js'; ?>
+        </script>
+</body>
+
+
+</html>

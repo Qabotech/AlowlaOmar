@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Wuxing Philosophy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            max-width: 100vw;
+            overflow: hidden;
+            /* Prevent scrolling */
+            background-color: #181818;
+            /* Optional, sets a consistent background */
+            color: #ffffff;
+            /* Default text color */
+        }
+        
+        .container {
+            display: flex;
+            padding: 0 5vw;
+            gap: 10rem;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            height: 100vh;
+            /* Full viewport height */
+            overflow: hidden;
+            /* Prevent internal scrolling */
+            background-color: #181818;
+            color: #ffffff;
+        }
+        
+        .text-content {
+            width: 620px;
+        }
+        
+        .text-content h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .text-content p {
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+        
+        .text-content p:last-child {
+            margin-bottom: 0;
+        }
+        
+        .cards {
+            flex: 1;
+            position: relative;
+            margin-top: 5rem;
+            width: 20rem;
+            height: 30rem;
+            perspective: 1000px;
+        }
+        
+        .card {
+            background-color: #292929;
+            color: #ffffff;
+            border-radius: 1em;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            position: absolute;
+            box-shadow: -20px 0px 40px 3px hsla(0, 0%, 100%, .07), inset 0 0 40px 0 rgba(0, 0, 0, .2), 15px 13px 40px 7px rgba(0, 0, 0, .7);
+            padding: 0.5em;
+            transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+            width: 300px;
+            height: 50vh;
+            transform-style: preserve-3d;
+            transform-origin: center;
+            cursor: pointer;
+            left: 50%;
+            top: 50%;
+            user-select: none;
+        }
+        
+        .card img {
+            width: 100%;
+            height: 25vh;
+            object-fit: cover;
+            border-radius: 1em 1em 0 0em;
+        }
+        
+        .card-content {
+            padding: 1rem 0;
+        }
+        
+        .card-content h2 {
+            font-size: 1.5rem;
+            margin: 0 0 0.5rem;
+        }
+        
+        .card-content p {
+            margin: 0;
+            line-height: 1.4;
+        }
+        
+        .navigation {
+            position: absolute;
+            bottom: -50px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 10px;
+        }
+        
+        .navigation button {
+            background-color: #444;
+            border: none;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        
+        .navigation button:hover {
+            background-color: #666;
+        }
+        /* Hover effect for the cards */
+        
+        .card:hover {
+            transform: scale(1.05) rotateY(0deg);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+        }
+        
+        @media screen and (max-width: 1300px) {
+            .card {
+                width: 250px;
+                height: 40vh;
+            }
+            .card img {
+                height: 20vh;
+            }
+        }
+        
+        @media screen and (max-width: 1200px) {
+            .container {
+                flex-direction: column-reverse;
+                padding: 2rem;
+                max-height: none;
+                overflow-y: scroll;
+            }
+            .cards {
+                height: 40vh;
+                text-align: center;
+            }
+            .text-content {
+                width: 100%;
+                text-align: center;
+            }
+        }
+        
+        @media screen and (max-width: 768px) {
+            .cards {
+                margin-top: 2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="text-content">
+            <h1 style="color: #999;">WOOD</h1>
+            <p>
+                Wuxing (Chinese: 五行; pinyin: wǔxíng), usually translated as Five Phases, is a fivefold conceptual scheme that many traditional Chinese fields use to explain a wide array of phenomena, from cosmic cycles to the interaction between internal organs, and
+                from the succession of political regimes to the properties of medicinal drugs.
+            </p>
+            <p>
+                The "Five Phases" are Fire (火; huǒ), Water (水; shuǐ), Wood (木; mù), Metal or Gold (金; jīn), and Earth or Soil (土; tǔ). This order of presentation is known as the "Days of the Week" sequence.
+            </p>
+        </div>
+        <div class="text-content">
+            <h1 style="color: #999;">FIRE</h1>
+            <p>
+                Wuxing (Chinese: 五行; pinyin: wǔxíng), usually translated as Five Phases, is a fivefold conceptual scheme that many traditional Chinese fields use to explain a wide array of phenomena, from cosmic cycles to the interaction between internal organs, and
+                from the succession of political regimes to the properties of medicinal drugs.
+            </p>
+            <p>
+                The "Five Phases" are Fire (火; huǒ), Water (水; shuǐ), Wood (木; mù), Metal or Gold (金; jīn), and Earth or Soil (土; tǔ). This order of presentation is known as the "Days of the Week" sequence.
+            </p>
+        </div>
+        <div class="text-content">
+            <h1 style="color: #999;">EARTH</h1>
+            <p>
+                Wuxing (Chinese: 五行; pinyin: wǔxíng), usually translated as Five Phases, is a fivefold conceptual scheme that many traditional Chinese fields use to explain a wide array of phenomena, from cosmic cycles to the interaction between internal organs, and
+                from the succession of political regimes to the properties of medicinal drugs.
+            </p>
+            <p>
+                The "Five Phases" are Fire (火; huǒ), Water (水; shuǐ), Wood (木; mù), Metal or Gold (金; jīn), and Earth or Soil (土; tǔ). This order of presentation is known as the "Days of the Week" sequence.
+            </p>
+        </div>
+        <div class="text-content">
+            <h1 style="color: #999;">METAL</h1>
+            <p>
+                Wuxing (Chinese: 五行; pinyin: wǔxíng), usually translated as Five Phases, is a fivefold conceptual scheme that many traditional Chinese fields use to explain a wide array of phenomena, from cosmic cycles to the interaction between internal organs, and
+                from the succession of political regimes to the properties of medicinal drugs.
+            </p>
+            <p>
+                The "Five Phases" are Fire (火; huǒ), Water (水; shuǐ), Wood (木; mù), Metal or Gold (金; jīn), and Earth or Soil (土; tǔ). This order of presentation is known as the "Days of the Week" sequence.
+            </p>
+        </div>
+        <div class="text-content">
+            <h1 style="color: #999;">WATER</h1>
+            <p>
+                Wuxing (Chinese: 五行; pinyin: wǔxíng), usually translated as Five Phases, is a fivefold conceptual scheme that many traditional Chinese fields use to explain a wide array of phenomena, from cosmic cycles to the interaction between internal organs, and
+                from the succession of political regimes to the properties of medicinal drugs.
+            </p>
+            <p>
+                The "Five Phases" are Fire (火; huǒ), Water (水; shuǐ), Wood (木; mù), Metal or Gold (金; jīn), and Earth or Soil (土; tǔ). This order of presentation is known as the "Days of the Week" sequence.
+            </p>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <img src="https://picsum.photos/1080/1920?random=1" alt="Wood Image">
+                <div class="card-content">
+                    <h2 style="color: #999;">WOOD</h2>
+                    <p>A period of growth, which generates abundant vitality, movement, and wind.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/1080/1920?random=4" alt="Fire Image">
+                <div class="card-content">
+                    <h2 style="color: #999;">FIRE</h2>
+                    <p>A period of energy, which radiates heat, brilliance, and passion.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/1080/1920?random=5" alt="Earth Image">
+                <div class="card-content">
+                    <h2 style="color: #999;">EARTH</h2>
+                    <p>A period of stability, which is nurturing, supportive, and grounding.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/1080/1920?random=2" alt="Metal Image">
+                <div class="card-content">
+                    <h2 style="color: #999;">METAL</h2>
+                    <p>A period of contraction, which generates strength, persistence, and clarity.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/1080/1920?random=3" alt="Water Image">
+                <div class="card-content">
+                    <h2 style="color: #999;">WATER</h2>
+                    <p>A period of rest, which nurtures wisdom, stillness, and adaptability.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script>
+        $(document).ready(function() {
+            const cards = $(".card");
+            const textContent = $(".text-content");
+            const totalCards = cards.length;
+            let currentIndex = 0;
+
+            // Function to update card positions in a 3D carousel
+            function updateCards() {
+                const angle = window.innerWidth <= 1200 ? 40 : 75; // Change angle based on screen width
+                const radius = window.innerWidth <= 1200 ? 360 : 300; // Change radius based on screen width
+
+                cards.each(function(index) {
+                    const card = $(this);
+                    const rotateY = (index - currentIndex) * angle; // Calculate rotation for each card
+                    const translateZ = radius; // Distance from the center
+                    card.attr("data-index", index);
+
+                    // Remove 'active' class from all cards
+                    card.removeClass('active');
+
+                    // Add 'active' class to the current card
+                    if (index === currentIndex) {
+                        card.addClass('active');
+                    }
+
+                    // Update the transform and opacity
+                    card.css({
+                        transform: `rotateY(${rotateY}deg) translateZ(${translateZ}px) translateY(-50%) translateX(-50%)`,
+                        opacity: 1 - Math.abs(index - currentIndex) * 0.3, // Adjust opacity for visibility
+                        zIndex: index === currentIndex ? 10 : 1, // Set z-index of the current card to 10, others to 1
+                    });
+                });
+
+                // Show the corresponding text-content and hide others
+                textContent.each(function(index) {
+                    const text = $(this);
+                    if (parseInt(text.attr("data-index")) === currentIndex) {
+                        text.show(); // Show the matching text-content
+                    } else {
+                        text.hide(); // Hide non-matching text-content
+                    }
+                });
+            }
+
+            // Initialize data-index for text-content
+            textContent.each(function(index) {
+                const text = $(this);
+                text.attr("data-index", index);
+            });
+
+            // Call updateCards on resize to adjust dynamically
+            $(window).resize(updateCards);
+
+            // Initial card positioning
+            updateCards();
+
+            // Click on the current active card to switch to the next card
+            $(".card").click(function() {
+                // Check if this card is the current one
+                if ($(this).hasClass('active')) {
+                    currentIndex = (currentIndex + 1) % totalCards; // Move to the next card
+                    updateCards();
+                }
+            });
+
+            // Previous button click
+            $("#prev").click(function() {
+                currentIndex = (currentIndex - 1 + totalCards) % totalCards; // Move to the previous card
+                updateCards();
+            });
+        });
+    </script>
+
+</body>
+
+</html>

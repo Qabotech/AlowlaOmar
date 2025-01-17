@@ -1,0 +1,33 @@
+[{
+        "title": "Barber Shop",
+        "description": "Ein lokaler Barbierladen in Würzburg. <br> Hinweis: *Ich bin nur für den Code verantwortlich.*"
+    },
+    {
+        "title": "E-Commerce",
+        "description": "Die E-Commerce-Plattform für hochwertige Design-Assets wurde ursprünglich mit <b>native PHP</b> entwickelt. Das Projekt zielte darauf ab, eine benutzerfreundliche und leistungsstarke Plattform für den Verkauf und Kauf von Design-Ressourcen zu schaffen. Leider wurde die Entwicklung eingestellt, da das Startup, das hinter dem Projekt stand, nicht mehr existiert. Dies führte dazu, dass die Weiterentwicklung und Wartung der Plattform gestoppt wurden. Trotz des Abbruchs bleibt die Plattform ein Beispiel für die Möglichkeiten von PHP in der Entwicklung von E-Commerce-Lösungen."
+    },
+    {
+        "title": "Laravel Blog",
+        "description": "Der <b>Laravel-basierte Blog</b> wurde mit <b>Laravel</b>, <b>JavaScript</b>, <b>jQuery</b>, <b>Tailwind CSS</b> und <b>Laravel Nova</b> entwickelt. Das Projekt diente primär dazu, meine Kenntnisse in <b>Laravel Nova<b> zu vertiefen, einem mächtigen Admin-Panel für Laravel-Anwendungen. Der Blog ermöglichte das Erstellen, Bearbeiten und Verwalten von Beiträgen, wobei Laravel Nova die Backend-Administration vereinfachte. Tailwind CSS sorgte für ein modernes und responsives Design, während jQuery für interaktive Frontend-Funktionen eingesetzt wurde. Dieses Projekt war eine wertvolle Lernressource, um Laravel Nova und fortgeschrittene Laravel-Funktionen zu meistern."
+    },
+    {
+        "title": "Einfaches Spiel",
+        "description": "Das <b>einfache Spielprojekt</b> kombiniert die Bildbearbeitung mit </b>PHP native</b> und die Spielelogik mit <b>JavaScript</b>. Die Bilder werden mithilfe der <b>Imagick</b>-Erweiterung in PHP bearbeitet, um dynamische und ansprechende visuelle Effekte zu erzeugen. Die Spielelogik und Interaktivität wurden mit </b>JavaScript</b> entwickelt, um eine flüssige und unterhaltsame Benutzererfahrung zu gewährleisten. Dieses Projekt zeigt die effektive Kombination von serverseitiger Bildverarbeitung und clientseitiger Spielentwicklung, um ein spaßiges und interaktives Spielerlebnis zu schaffen."
+    },
+    {
+        "title": "Instagram Clone",
+        "description": "Das <b>Instagram Clone</b>-Projekt war ein Schulprojekt, bei dem ich eine Social-Media-Plattform mit <b>PHP native</b>, <b>JavaScript</b> und <b/>CSS<b> entwickelte. Die Aufgabe bestand darin, grundlegende Funktionen wie das Hochladen von Bildern, das Erstellen von Profilen und das Anzeigen von Beiträgen zu implementieren. Ich hatte nur <b>eine Woche Zeit</b>, um das Projekt abzuschließen, was eine Herausforderung darstellte. Mit PHP wurde die Backend-Logik für die Datenverarbeitung und Datenbankinteraktionen umgesetzt, während JavaScript und CSS für die interaktive und ansprechende Benutzeroberfläche sorgten. Dieses Projekt war eine großartige Gelegenheit, meine Fähigkeiten in der Webentwicklung zu vertiefen und unter Zeitdruck zu arbeiten."
+    },
+    {
+        "title": "Einfache Website",
+        "description": "Die <b>einfache Website</b> mit Informationen über den Islam habe ich für einen Studenten entwickelt, der ein Projekt zu diesem Thema erstellen wollte. Ich war für die Umsetzung des Codes verantwortlich und habe die Website mit <b>JavaScript</b>, <b>HTML</b> und <b>CSS</b> erstellt. Die Seite bietet eine übersichtliche und benutzerfreundliche Darstellung von Informationen über den Islam, wobei HTML für die Struktur, CSS für das Design und JavaScript für interaktive Elemente sorgten. Dieses Projekt war eine gute Gelegenheit, meine Webentwicklungsfähigkeiten einzusetzen, um jemandem bei der Realisierung seines Vorhabens zu helfen.<br>  Hinweis: *Ich bin nur für den Code verantwortlich.*"
+    },
+    {
+        "title": "Subnetzrechner",
+        "description": "Der <b>Subnetzrechner</b> wurde entwickelt, um meiner Klasse zu helfen, das Konzept des <b>Subnettings</b> besser zu verstehen. Dieses Tool ermöglicht es, Netzwerke in Subnetze aufzuteilen und die entsprechenden Adressen, Masken und Bereiche zu berechnen. Ich habe den Rechner mit <b>JavaScript</b> für die Logik und Berechnungen sowie mit <b>CSS</b> für ein klares und benutzerfreundliches Design umgesetzt. Das Projekt war eine praktische Möglichkeit, meinen Mitschülern das oft komplexe Thema des Subnettings auf eine interaktive und zugängliche Weise näherzubringen."
+    },
+    {
+        "title": "WebRTC",
+        "description": "Die WebRTC-App für Gruppenanrufe mit Websocket wurde mit <b>JavaScript</b> und <b>jQuery</b> entwickelt. WebRTC ermöglicht Echtzeit-Kommunikation zwischen Browsern, während Websockets die Signalisierung zwischen Server und Clients handhaben. jQuery wurde verwendet, um die Benutzeroberfläche dynamisch zu gestalten, z. B. für die Anzeige von Teilnehmern und die Handhabung von Benutzerinteraktionen. Die App nutzt `getUserMedia` für Audio/Video-Streams und WebSocket für Echtzeit-Updates, um eine flüssige Gruppenkommunikation zu gewährleisten."
+    }
+]

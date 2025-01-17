@@ -1,0 +1,73 @@
+[{
+        "image": "https://alowlaomar.de/Media/bb.jpg",
+        "alt": "bayrischerbarbier",
+        "title": "Barber Shop",
+        "subtitle": "Bayrischer Barbier:",
+        "description": "Ein lokaler Barbierladen in Würzburg. Hinweis: *Ich bin nur für den Code verantwortlich.*",
+        "link": "https://alowlaomar.de/bayrischer-barbier",
+        "link_text": "Schau es dir an"
+    },
+    {
+        "image": "https://alowlaomar.de/Media/TD.png",
+        "alt": "turbodesigners.ml",
+        "title": "E-Commerce",
+        "subtitle": "Turbo Designers:",
+        "description": "Eine Plattform für hochwertige Design-Assets.",
+        "link": "../",
+        "link_text": "Schau es dir an"
+    },
+    {
+        "image": "../imgs/blog.png",
+        "alt": "omar blog",
+        "title": "Laravel Blog",
+        "subtitle": "Omar Blog",
+        "description": "Ein Laravel-basiertes Blog für Beiträge.",
+        "link": "https://blog.alowlaomar.de/",
+        "link_text": "Schau es dir an"
+    },
+    {
+        "image": "https://alowlaomar.de/Media/imgtoplayer.jpg",
+        "alt": "imgtoplayer",
+        "title": "Einfaches Spiel",
+        "subtitle": "Bild zu Spieler",
+        "description": "Ein Spaßspielprojekt mit Imagick.",
+        "link": "https://alowlaomar.de/ImgtoPlayer/",
+        "link_text": "Schau es dir an"
+    },
+    {
+        "image": "https://alowlaomar.de/Media/omargram.jpg",
+        "alt": "omargram",
+        "title": "Instagram Clone",
+        "subtitle": "Omargram",
+        "description": "Eine Social Media Plattform mit PHP native.",
+        "link": "https://alowlajavaproject.wuaze.com/sys/",
+        "link_text": "Schau es dir an"
+    },
+    {
+        "image": "https://alowlaomar.de/Media/uli.jpg",
+        "alt": "AboutIslam",
+        "title": "Einfache Website",
+        "subtitle": "Über Islam:",
+        "description": "Informationen über den Islam. Hinweis: *Ich bin nur für den Code verantwortlich.*",
+        "link": "https://alowlaomar.de/ULI/",
+        "link_text": "Schau es dir an"
+    },
+    {
+        "image": "https://alowlaomar.de/Media/subnet.png",
+        "alt": "subnetting",
+        "title": "Subnetzrechner",
+        "subtitle": "Subnetzrechner :",
+        "description": "Ein Rechner für Subnetzierungen.",
+        "link": "https://subnetingiuk2fia10.netlify.app/",
+        "link_text": "Schau es dir an"
+    },
+    {
+        "image": "https://alowlaomar.de/Media/call.jpg",
+        "alt": "qtgroupecall",
+        "title": "WebRTC",
+        "subtitle": "Qt-Gruppenanruf-App:",
+        "description": "Eine App für Gruppenanrufe mit Websocket.",
+        "link": "https://call.alowlaomar.de/",
+        "link_text": "Schau es dir an"
+    }
+]
